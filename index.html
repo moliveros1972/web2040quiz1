@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="main.css">
+
+<meta charset="UTF-8">
+<title>Quiz1</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top "> 
+
+	<img src="logo1.png" alt="logo">
+<div class="flip-box" id="logo">
+  <div class="flip-box-inner">
+  </div>
+</div>
+
+ 	<a class="navbar-brand" href="#">Home</a>
+
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+ 	<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse " id="navbarSupportedContent"> 
+	<ul class="navbar-nav mr-4">
+ 	<li class="nav-item">
+     <a class="nav-link" data-value="sales" href="#">Sales</a> 
+  	</li>  
+	<li class="nav-item">
+    <a class="nav-link " data-value="brands"href="#">Brands</a>    
+ 	</li>
+ 	</ul> 
+	</div>
+</nav>
+
+<div>
+<h1>TeachLaunch Sunglasses</h1>
+
+<p>Find lastest brands in sunglasses here on this site. We take pride at offering the highest quality at the lowest price. Find brands susch as Rayban, Versace, Michael Kors, and many more.
+</p>
+
+<button class="btn btn-outline-secondary btn-lg" type="button" onClick="change()">See more</button><br>
+
+<img src="glasses2.gif" alt="">
+
+</div>
+
+<script type="text/JavaScript">
+function change() {
+var image = document.getElementById("logo");
+image.src = "logo2.png";
+}
+</script>
+</body>
+</html>
